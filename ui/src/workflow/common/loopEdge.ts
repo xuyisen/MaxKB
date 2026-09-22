@@ -61,7 +61,7 @@ class CustomEdgeModel2 extends BezierEdgeModel {
   }
   setAttributes(): void {
     super.setAttributes()
-    this.isHitable = true
+    this.isHittable = true
     this.zIndex = 0
   }
 }
