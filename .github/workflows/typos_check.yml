@@ -1,9 +1,5 @@
 name: Typos Check
-on:
-  workflow_dispatch:
-  push:
-  pull_request:
-    types: [opened, synchronize, reopened]
+on: push
 
 jobs:
   run:
